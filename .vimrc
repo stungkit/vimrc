@@ -4,3 +4,5 @@ syntax on
 
 let mapleader=" "
 let g:EasyMotion_leader_key = '<Leader>'
+
+colorscheme gruvbox
