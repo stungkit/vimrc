@@ -8,4 +8,6 @@ set noswapfile
 let mapleader=" "
 let g:EasyMotion_leader_key = '<Leader>'
 
+map <C-n> :NERDTreeToggle<CR>
+
 colorscheme gruvbox
