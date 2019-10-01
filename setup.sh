@@ -12,6 +12,7 @@ git clone https://github.com/morhetz/gruvbox.git ~/.vim/pack/default/start/gruvb
 git clone https://github.com/kien/ctrlp.vim ~/.vim/pack/default/start/ctrlp.vim
 git clone https://github.com/mileszs/ack.vim ~/.vim/pack/default/start/ack.vim
 git clone https://github.com/scrooloose/nerdtree.git ~/.vim/pack/default/start/nerdtree
+git clone https://github.com/junegunn/fzf.vim ~/.vim/pack/default/start/fzf.vim
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
