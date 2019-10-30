@@ -10,6 +10,7 @@ set autoindent
 set smartindent
 set cursorcolumn
 set cursorline
+set autoread
 
 let mapleader=" "
 let g:EasyMotion_leader_key = '<Leader>'
