@@ -21,6 +21,7 @@ git clone https://github.com/itchyny/lightline.vim ${INSTALL_DIR}
 git clone https://github.com/terryma/vim-multiple-cursors.git ${INSTALL_DIR}
 git clone https://github.com/tpope/vim-surround.git ${INSTALL_DIR}
 git clone https://github.com/nathanaelkane/vim-indent-guides.git ${INSTALL_DIR}
+git clone https://github.com/airblade/vim-gitgutter.git ${INSTALL_DIR}
 
 ## Install coc.nvim
 ${DIR}/coc.nvim/setup.sh

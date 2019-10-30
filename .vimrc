@@ -11,8 +11,12 @@ set smartindent
 set autoread
 
 let mapleader=" "
+
+" Configs
 let g:EasyMotion_leader_key = '<Leader>'
 let g:indent_guides_enable_on_vim_startup = 1
+let g:gitgutter_highlight_lines = 1
+let g:gitgutter_highlight_linenrs = 1
 
 " fzf and fzf.vim
 " If installed using Homebrew
