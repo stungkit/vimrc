@@ -14,6 +14,12 @@ set cursorline
 let mapleader=" "
 let g:EasyMotion_leader_key = '<Leader>'
 
+" fzf and fzf.vim
+" If installed using Homebrew
+set rtp+=/usr/local/opt/fzf
+" If installed using git
+set rtp+=~/.fzf
+
 map <C-n> :NERDTreeToggle<CR>
 
 colorscheme gruvbox

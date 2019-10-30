@@ -14,7 +14,6 @@ cp .vimrc ~/.vimrc
 git clone https://github.com/sheerun/vim-polyglot ${INSTALL_DIR}/vim-polyglot
 git clone https://github.com/easymotion/vim-easymotion ${INSTALL_DIR}/vim-easymotion
 git clone https://github.com/morhetz/gruvbox.git ${INSTALL_DIR}/gruvbox
-git clone https://github.com/kien/ctrlp.vim ${INSTALL_DIR}/ctrlp.vim
 git clone https://github.com/mileszs/ack.vim ${INSTALL_DIR}/ack.vim
 git clone https://github.com/scrooloose/nerdtree.git ${INSTALL_DIR}/nerdtree
 git clone https://github.com/junegunn/fzf.vim ${INSTALL_DIR}/fzf.vim
