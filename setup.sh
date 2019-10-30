@@ -11,14 +11,14 @@ brew install \
 
 cp .vimrc ~/.vimrc
 
-git clone https://github.com/sheerun/vim-polyglot ${INSTALL_DIR}/vim-polyglot
-git clone https://github.com/easymotion/vim-easymotion ${INSTALL_DIR}/vim-easymotion
-git clone https://github.com/morhetz/gruvbox.git ${INSTALL_DIR}/gruvbox
-git clone https://github.com/mileszs/ack.vim ${INSTALL_DIR}/ack.vim
-git clone https://github.com/scrooloose/nerdtree.git ${INSTALL_DIR}/nerdtree
-git clone https://github.com/junegunn/fzf.vim ${INSTALL_DIR}/fzf.vim
-git clone https://github.com/itchyny/lightline.vim ${INSTALL_DIR}/lightline
-git clone https://github.com/terryma/vim-multiple-cursors.git ${INSTALL_DIR}/vim-multiple-cursors
+git clone https://github.com/sheerun/vim-polyglot ${INSTALL_DIR}
+git clone https://github.com/easymotion/vim-easymotion ${INSTALL_DIR}
+git clone https://github.com/morhetz/gruvbox.git ${INSTALL_DIR}
+git clone https://github.com/mileszs/ack.vim ${INSTALL_DIR}
+git clone https://github.com/scrooloose/nerdtree.git ${INSTALL_DIR}
+git clone https://github.com/junegunn/fzf.vim ${INSTALL_DIR}
+git clone https://github.com/itchyny/lightline.vim ${INSTALL_DIR}
+git clone https://github.com/terryma/vim-multiple-cursors.git ${INSTALL_DIR}
 git clone https://github.com/tpope/vim-surround.git ${INSTALL_DIR}
 
 ## Install coc.nvim
