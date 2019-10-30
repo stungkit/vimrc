@@ -17,6 +17,7 @@ git clone https://github.com/morhetz/gruvbox.git ${INSTALL_DIR}/gruvbox
 git clone https://github.com/mileszs/ack.vim ${INSTALL_DIR}/ack.vim
 git clone https://github.com/scrooloose/nerdtree.git ${INSTALL_DIR}/nerdtree
 git clone https://github.com/junegunn/fzf.vim ${INSTALL_DIR}/fzf.vim
+git clone https://github.com/itchyny/lightline.vim ${INSTALL_DIR}/lightline
 
 ## Install coc.nvim
 ${DIR}/coc.nvim/setup.sh

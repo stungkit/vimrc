@@ -20,6 +20,9 @@ set rtp+=/usr/local/opt/fzf
 " If installed using git
 set rtp+=~/.fzf
 
+" lightline
+set laststatus=2
+
 " Bindings
 map <C-n> :NERDTreeToggle<CR>
 map <C-p> :Files<CR>
