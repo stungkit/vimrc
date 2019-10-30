@@ -17,3 +17,8 @@ let g:EasyMotion_leader_key = '<Leader>'
 map <C-n> :NERDTreeToggle<CR>
 
 colorscheme gruvbox
+
+" Load all packages now
+packloadall
+" Generate help tags from all packages and ignore errors
+silent! helptags ALL
