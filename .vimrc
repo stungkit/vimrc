@@ -9,6 +9,7 @@ set tabstop=2
 set autoindent
 set smartindent
 set autoread
+set ignorecase
 
 let mapleader=" "
 
