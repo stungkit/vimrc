@@ -19,6 +19,7 @@ git clone https://github.com/scrooloose/nerdtree.git ${INSTALL_DIR}/nerdtree
 git clone https://github.com/junegunn/fzf.vim ${INSTALL_DIR}/fzf.vim
 git clone https://github.com/itchyny/lightline.vim ${INSTALL_DIR}/lightline
 git clone https://github.com/terryma/vim-multiple-cursors.git ${INSTALL_DIR}/vim-multiple-cursors
+git clone https://github.com/tpope/vim-surround.git ${INSTALL_DIR}
 
 ## Install coc.nvim
 ${DIR}/coc.nvim/setup.sh
