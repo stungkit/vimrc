@@ -1,11 +1,9 @@
-set number
 filetype plugin indent on
 syntax on
+
+set number
 set hlsearch
-set runtimepath^=~/.vim/pack/default/start/ctrlp.vim
 set noswapfile
-set shiftwidth=2
-set tabstop=2
 set autoindent
 set smartindent
 set autoread
