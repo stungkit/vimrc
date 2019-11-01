@@ -7,7 +7,7 @@ set noswapfile
 set autoindent
 set smartindent
 set autoread
-au CursorHold * checktime
+au CursorHold,CursorHoldI * checktime
 set ignorecase
 
 let mapleader=" "
