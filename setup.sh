@@ -11,17 +11,17 @@ brew install \
 
 cp .vimrc ~/.vimrc
 
-git clone https://github.com/sheerun/vim-polyglot ${INSTALL_DIR}
-git clone https://github.com/easymotion/vim-easymotion ${INSTALL_DIR}
-git clone https://github.com/morhetz/gruvbox.git ${INSTALL_DIR}
-git clone https://github.com/mileszs/ack.vim ${INSTALL_DIR}
-git clone https://github.com/scrooloose/nerdtree.git ${INSTALL_DIR}
-git clone https://github.com/junegunn/fzf.vim ${INSTALL_DIR}
-git clone https://github.com/itchyny/lightline.vim ${INSTALL_DIR}
-git clone https://github.com/terryma/vim-multiple-cursors.git ${INSTALL_DIR}
-git clone https://github.com/tpope/vim-surround.git ${INSTALL_DIR}
-git clone https://github.com/nathanaelkane/vim-indent-guides.git ${INSTALL_DIR}
-git clone https://github.com/airblade/vim-gitgutter.git ${INSTALL_DIR}
+git -C ${INSTALL_DIR} clone https://github.com/sheerun/vim-polyglot
+git -C ${INSTALL_DIR} clone https://github.com/easymotion/vim-easymotion
+git -C ${INSTALL_DIR} clone https://github.com/morhetz/gruvbox.git
+git -C ${INSTALL_DIR} clone https://github.com/mileszs/ack.vim
+git -C ${INSTALL_DIR} clone https://github.com/scrooloose/nerdtree.git
+git -C ${INSTALL_DIR} clone https://github.com/junegunn/fzf.vim
+git -C ${INSTALL_DIR} clone https://github.com/itchyny/lightline.vim
+git -C ${INSTALL_DIR} clone https://github.com/terryma/vim-multiple-cursors.git
+git -C ${INSTALL_DIR} clone https://github.com/tpope/vim-surround.git
+git -C ${INSTALL_DIR} clone https://github.com/nathanaelkane/vim-indent-guides.git
+git -C ${INSTALL_DIR} clone https://github.com/airblade/vim-gitgutter.git
 
 git clone https://github.com/editorconfig/editorconfig-vim.git ${INSTALL_DIR}
 cp ${DIR}/.editorconfig ~/.editorconfig
