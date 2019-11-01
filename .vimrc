@@ -7,7 +7,10 @@ set noswapfile
 set autoindent
 set smartindent
 set autoread
-au CursorHold,CursorHoldI * checktime
+" reload when entering the buffer or gaining focus
+au FocusGained,BufEnter * :silent! !
+" save when exiting the buffer or losing focus
+au FocusLost,WinLeave * :silent! w
 set ignorecase
 
 let mapleader=" "
