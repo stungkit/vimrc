@@ -3,6 +3,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 INSTALL_DIR=~/.vim/pack/default/start
 
+rm -rf ${INSTALL_DIR}
 mkdir -p ${INSTALL_DIR}
 
 brew install \
