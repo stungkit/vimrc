@@ -7,6 +7,8 @@ set noswapfile
 set autoindent
 set smartindent
 set autoread
+" shows minimum number of lines above and below cursor
+set scrolloff=5
 " reload when entering the buffer or gaining focus
 au FocusGained,BufEnter * :silent! !
 " save when exiting the buffer or losing focus
