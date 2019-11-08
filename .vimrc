@@ -14,6 +14,7 @@ au FocusGained,BufEnter * :silent! !
 " save when exiting the buffer or losing focus
 au FocusLost,WinLeave * :silent! w
 set ignorecase
+set spell spelllang=en_us
 
 let mapleader=" "
 
