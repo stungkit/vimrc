@@ -33,6 +33,9 @@ set rtp+=~/.fzf
 " lightline
 set laststatus=2
 
+" rainbow
+let g:rainbow_active = 1
+
 " Bindings
 map <C-n> :NERDTreeToggle<CR>
 map <C-p> :Files<CR>
