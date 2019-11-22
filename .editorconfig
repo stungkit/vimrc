@@ -30,3 +30,11 @@ indent_size = 2
 
 [*.{bat,vbs,ps1}]
 end_of_line = CRLF
+
+[*.sh]
+indent_style = space
+indent_size = 2
+
+[*.html]
+indent_style = space
+indent_size = 2
