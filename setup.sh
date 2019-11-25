@@ -27,7 +27,6 @@ git -C ${INSTALL_DIR} clone https://github.com/maxbrunsfeld/vim-yankstack.git
 git -C ${INSTALL_DIR} clone https://github.com/tpope/vim-fugitive.git
 git -C ${INSTALL_DIR} clone https://github.com/terryma/vim-expand-region.git
 git -C ${INSTALL_DIR} clone https://github.com/luochen1990/rainbow.git
-git -C ${INSTALL_DIR} clone https://github.com/jlanzarotta/bufexplorer.git
 git -C ${INSTALL_DIR} clone https://github.com/junegunn/goyo.vim.git
 
 git -C ${INSTALL_DIR} clone https://github.com/editorconfig/editorconfig-vim.git
