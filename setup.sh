@@ -7,8 +7,9 @@ rm -rf ${INSTALL_DIR}
 mkdir -p ${INSTALL_DIR}
 
 brew install \
-	ack \
-	ag
+  ack \
+  ag \
+  rg
 
 cp .vimrc ~/.vimrc
 
@@ -28,12 +29,11 @@ git -C ${INSTALL_DIR} clone https://github.com/tpope/vim-fugitive.git
 git -C ${INSTALL_DIR} clone https://github.com/terryma/vim-expand-region.git
 git -C ${INSTALL_DIR} clone https://github.com/luochen1990/rainbow.git
 git -C ${INSTALL_DIR} clone https://github.com/junegunn/goyo.vim.git
+git -C ${INSTALL_DIR} clone https://github.com/mileszs/ack.vim
 
 git -C ${INSTALL_DIR} clone https://github.com/editorconfig/editorconfig-vim.git
 cp ${DIR}/.editorconfig ~/.editorconfig
 
-git -C ${INSTALL_DIR} clone https://github.com/mileszs/ack.vim
-cp ${DIR}/.ackrc ~/.ackrc
 
 ## Install coc.nvim
 ${DIR}/coc.nvim/setup.sh
