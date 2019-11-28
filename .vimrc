@@ -42,6 +42,7 @@ map <C-p> :Files<CR>
 map ; :Buffers<CR>
 nmap <leader>p <Plug>yankstack_substitute_older_paste
 nmap <leader>P <Plug>yankstack_substitute_newer_paste
+nmap <C-e> :e#<CR>
 
 colorscheme gruvbox
 
