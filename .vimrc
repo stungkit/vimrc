@@ -37,7 +37,8 @@ set laststatus=2
 let g:rainbow_active = 1
 
 " Bindings
-map <C-n> :NERDTreeToggle<CR>
+map <leader>d :NERDTreeToggle<CR>
+map <leader>f :NERDTreeFind<CR>
 map <C-p> :Files<CR>
 map ; :Buffers<CR>
 nmap <leader>p <Plug>yankstack_substitute_older_paste
