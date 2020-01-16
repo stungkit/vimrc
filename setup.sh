@@ -34,6 +34,7 @@ git -C ${INSTALL_DIR} clone https://github.com/luochen1990/rainbow.git
 git -C ${INSTALL_DIR} clone https://github.com/junegunn/goyo.vim.git
 git -C ${INSTALL_DIR} clone https://github.com/mileszs/ack.vim
 git -C ${INSTALL_DIR} clone https://github.com/tpope/vim-commentary.git
+git -C ${INSTALL_DIR} clone https://github.com/ludovicchabant/vim-gutentags.git
 
 git -C ${INSTALL_DIR} clone https://github.com/editorconfig/editorconfig-vim.git
 cp ${DIR}/.editorconfig ~/.editorconfig
