@@ -1,6 +1,8 @@
 filetype plugin indent on
 syntax on
 
+set binary
+set noeol
 set number
 set hlsearch
 set noswapfile
