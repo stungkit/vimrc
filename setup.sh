@@ -9,7 +9,10 @@ mkdir -p ${INSTALL_DIR}
 brew install \
   ack \
   ag \
-  rg
+  rg \
+  ctags
+
+cp .ctags ~/.ctags
 
 cp .vimrc ~/.vimrc
 
