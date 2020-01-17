@@ -39,6 +39,8 @@ git -C ${INSTALL_DIR} clone https://github.com/ludovicchabant/vim-gutentags.git
 git -C ${INSTALL_DIR} clone https://github.com/editorconfig/editorconfig-vim.git
 cp ${DIR}/.editorconfig ~/.editorconfig
 
+cp ${DIR}/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
 
 ## Install coc.nvim
 ${DIR}/coc.nvim/setup.sh
