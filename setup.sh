@@ -12,9 +12,9 @@ brew install \
   rg \
   ctags
 
-cp .ctags ~/.ctags
+cp ${DIR}/.ctags ~/.ctags
 
-cp .vimrc ~/.vimrc
+cp ${DIR}/.vimrc ~/.vimrc
 
 git -C ${INSTALL_DIR} clone https://github.com/sheerun/vim-polyglot
 git -C ${INSTALL_DIR} clone https://github.com/easymotion/vim-easymotion
@@ -39,7 +39,7 @@ git -C ${INSTALL_DIR} clone https://github.com/ludovicchabant/vim-gutentags.git
 git -C ${INSTALL_DIR} clone https://github.com/editorconfig/editorconfig-vim.git
 cp ${DIR}/.editorconfig ~/.editorconfig
 
-cp ${DIR}/.gitignore_global
+cp ${DIR}/.gitignore_global ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 
 ## Install coc.nvim
