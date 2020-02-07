@@ -11,7 +11,8 @@ mkdir -p ${INSTALL_DIR}
 brew install \
   ack \
   ag \
-  rg
+  rg \
+  vim
 
 cp ${DIR}/.vimrc ~/.vimrc
 
