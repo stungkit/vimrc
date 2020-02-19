@@ -17,7 +17,6 @@ au FocusGained,BufEnter * :silent! !
 au FocusLost,WinLeave * :silent! w
 set ignorecase
 set spell spelllang=en_us
-set clipboard=unnamed
 set nocp
 set backspace=indent,eol,start
 
