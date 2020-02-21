@@ -1,0 +1,2 @@
+[alias]
+    squash = !git reset --soft $(git merge-base HEAD master)
