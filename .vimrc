@@ -40,6 +40,9 @@ set laststatus=2
 " rainbow
 let g:rainbow_active = 1
 
+" ctags
+set tags=./tags;/,tags;/
+
 " Bindings
 map <leader>d :NERDTreeToggle<CR>
 map <leader>f :NERDTreeFind<CR>

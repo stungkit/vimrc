@@ -12,7 +12,8 @@ brew install \
   ack \
   ag \
   rg \
-  vim
+  vim \
+  --HEAD universal-ctags/universal-ctags/universal-ctags
 
 cp ${DIR}/.vimrc ~/.vimrc
 
@@ -35,6 +36,7 @@ git -C ${INSTALL_DIR} clone https://github.com/junegunn/goyo.vim.git
 git -C ${INSTALL_DIR} clone https://github.com/mileszs/ack.vim
 git -C ${INSTALL_DIR} clone https://github.com/tpope/vim-commentary.git
 git -C ${INSTALL_DIR} clone https://github.com/christoomey/vim-tmux-navigator.git
+git -C ${INSTALL_DIR} clone https://github.com/ludovicchabant/vim-gutentags.git
 
 git -C ${INSTALL_DIR} clone https://github.com/editorconfig/editorconfig-vim.git
 cp ${DIR}/.editorconfig ~/.editorconfig
