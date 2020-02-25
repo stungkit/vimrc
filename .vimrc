@@ -27,7 +27,8 @@ let g:EasyMotion_leader_key = '<Leader>'
 let g:indent_guides_enable_on_vim_startup = 1
 let g:gitgutter_highlight_linenrs = 1
 let g:ackprg = "rg --vimgrep"
-let g:gutentags_ctags_executable_ruby = 'ripper-tags --ignore-unsupported-options --recursive'
+let g:gutentags_ctags_executable_ruby = 'ripper-tags'
+let g:gutentags_ctags_extra_args = ['--ignore-unsupported-options', '--recursive']
 
 " fzf and fzf.vim
 " If installed using Homebrew
