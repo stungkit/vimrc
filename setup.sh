@@ -20,13 +20,12 @@ cp ${DIR}/.vimrc ~/.vimrc
 git -C ${INSTALL_DIR} clone https://github.com/sheerun/vim-polyglot
 git -C ${INSTALL_DIR} clone https://github.com/easymotion/vim-easymotion
 git -C ${INSTALL_DIR} clone https://github.com/morhetz/gruvbox.git
-git -C ${INSTALL_DIR} clone https://github.com/scrooloose/nerdtree.git
+git -C ${INSTALL_DIR} clone https://github.com/tpope/vim-vinegar.git
 git -C ${INSTALL_DIR} clone https://github.com/junegunn/fzf.vim
 git -C ${INSTALL_DIR} clone https://github.com/itchyny/lightline.vim
 git -C ${INSTALL_DIR} clone https://github.com/terryma/vim-multiple-cursors.git
 git -C ${INSTALL_DIR} clone https://github.com/tpope/vim-surround.git
 git -C ${INSTALL_DIR} clone https://github.com/nathanaelkane/vim-indent-guides.git
-git -C ${INSTALL_DIR} clone https://github.com/airblade/vim-gitgutter.git
 git -C ${INSTALL_DIR} clone https://github.com/mechatroner/rainbow_csv.git
 git -C ${INSTALL_DIR} clone https://github.com/maxbrunsfeld/vim-yankstack.git
 git -C ${INSTALL_DIR} clone https://github.com/tpope/vim-fugitive.git
@@ -38,7 +37,7 @@ git -C ${INSTALL_DIR} clone https://github.com/tpope/vim-commentary.git
 git -C ${INSTALL_DIR} clone https://github.com/christoomey/vim-tmux-navigator.git
 git -C ${INSTALL_DIR} clone https://github.com/ludovicchabant/vim-gutentags.git
 git -C ${INSTALL_DIR} clone https://github.com/blueyed/vim-diminactive.git
-git -C ${INSTALL_DIR} clone https://github.com/mhinz/vim-startify.git
+git -C ${INSTALL_DIR} clone https://github.com/mhinz/vim-signify.git
 
 git -C ${INSTALL_DIR} clone https://github.com/editorconfig/editorconfig-vim.git
 cp ${DIR}/.editorconfig ~/.editorconfig
