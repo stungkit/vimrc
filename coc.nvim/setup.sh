@@ -16,12 +16,15 @@ mkdir -p ${INSTALL_DIR}
 cd ${INSTALL_DIR}
 curl --fail -L https://github.com/neoclide/coc.nvim/archive/release.tar.gz|tar xzfv -
 
+# Copy settings file
+cp ${DIR}/coc-settings.json ~/.vim/coc-settings.json
+
 # Copy extensions file
 mkdir -p ${CONFIG_DIR}
 cp ${DIR}/package.json ${CONFIG_DIR}/package.json
 
 # Install extensions
-cd ${CONFIG_DIR} 
+cd ${CONFIG_DIR}
 if [ ! -f package.json ]
 then
 	echo '{"dependencies":{}}'> package.json
