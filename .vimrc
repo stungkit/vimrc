@@ -44,6 +44,9 @@ nmap <silent> gr <Plug>(coc-references)
 " lightline
 set laststatus=2
 
+" vim-qf
+let g:qf_shorten_path = 0
+
 " rainbow
 let g:rainbow_active = 1
 
