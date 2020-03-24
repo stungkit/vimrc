@@ -38,6 +38,7 @@ git -C ${INSTALL_DIR} clone https://github.com/christoomey/vim-tmux-navigator.gi
 git -C ${INSTALL_DIR} clone https://github.com/blueyed/vim-diminactive.git
 git -C ${INSTALL_DIR} clone https://github.com/mhinz/vim-signify.git
 git -C ${INSTALL_DIR} clone https://github.com/romainl/vim-qf.git
+git -C ${INSTALL_DIR} clone https://github.com/camspiers/lens.vim
 
 git -C ${INSTALL_DIR} clone https://github.com/editorconfig/editorconfig-vim.git
 cp ${DIR}/.editorconfig ~/.editorconfig
