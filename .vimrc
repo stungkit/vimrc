@@ -65,6 +65,14 @@ map <Leader> <Plug>(easymotion-prefix)
 nmap f <Plug>(easymotion-bd-f)
 xmap f <Plug>(easymotion-bd-f)
 omap f <Plug>(easymotion-bd-f)
+nnoremap <leader>l :call VimLensToggle()<cr>
+function! VimLensToggle()
+    if g:lens#disabled
+        let g:lens#disabled = 0
+    else
+        let g:lens#disabled = 1
+    endif
+endfunction
 
 colorscheme gruvbox
 
