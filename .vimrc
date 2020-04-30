@@ -58,9 +58,12 @@ map <leader>d :NERDTreeToggle<CR>
 map <leader>f :NERDTreeFind<CR>
 map <C-p> :Files<CR>
 map ; :Buffers<CR>
+nmap <leader>g :Ag!<CR>
 nmap <leader>p <Plug>yankstack_substitute_older_paste
 nmap <leader>o <Plug>yankstack_substitute_newer_paste
 nmap <C-e> :e#<CR>
+nnoremap <leader>bd :%bd<CR>
+nnoremap <leader>ud :%bd <bar> e#<CR>
 map <Leader> <Plug>(easymotion-prefix)
 nmap f <Plug>(easymotion-bd-f)
 xmap f <Plug>(easymotion-bd-f)
