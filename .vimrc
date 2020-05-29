@@ -19,6 +19,7 @@ set ignorecase
 set spell spelllang=en_us
 set nocp
 set backspace=indent,eol,start
+set redrawtime=10000
 
 let mapleader=" "
 
