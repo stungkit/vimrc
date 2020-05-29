@@ -54,8 +54,6 @@ let g:rainbow_active = 1
 set tags=./tags;/,tags;/
 
 " Bindings
-map <leader>d :NERDTreeToggle<CR>
-map <leader>f :NERDTreeFind<CR>
 map <C-p> :Files<CR>
 map ; :Buffers<CR>
 nmap <leader>g :Ag!<CR>
@@ -76,6 +74,8 @@ function! VimLensToggle()
         let g:lens#disabled = 1
     endif
 endfunction
+cnoreabbrev Ack Ack!
+nnoremap <Leader>f :Ack!<Enter>
 
 colorscheme gruvbox
 
