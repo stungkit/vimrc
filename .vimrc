@@ -75,7 +75,7 @@ function! VimLensToggle()
         let g:lens#disabled = 1
     endif
 endfunction
-cnoreabbrev Ac Ack!
+cnoreabbrev f Ack!
 nnoremap <Leader>f :Ack!<Enter>
 
 colorscheme gruvbox
