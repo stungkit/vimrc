@@ -8,13 +8,6 @@ INSTALL_DIR=~/.vim/pack/default/start
 rm -rf ${INSTALL_DIR}
 mkdir -p ${INSTALL_DIR}
 
-brew install \
-  ack \
-  ag \
-  rg \
-  vim \
-  --HEAD universal-ctags/universal-ctags/universal-ctags
-
 cp ${DIR}/.vimrc ~/.vimrc
 
 git -C ${INSTALL_DIR} clone https://github.com/sheerun/vim-polyglot
