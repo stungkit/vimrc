@@ -79,6 +79,7 @@ cnoreabbrev f Ack!
 nnoremap <Leader>f :Ack!<Enter>
 
 colorscheme gruvbox
+set background=dark
 
 " Load all packages now
 packloadall
