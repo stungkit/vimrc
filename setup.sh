@@ -41,7 +41,7 @@ cp ${DIR}/.gitignore_global ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 
 # Install coc.nvim
-${DIR}/coc.nvim/setup.sh
+# ${DIR}/coc.nvim/setup.sh
 
 # Copy ~/.gitconfig extras
 echo "Do not forget to copy the contents in .gitconfig-extra into ~/.gitconfig"
