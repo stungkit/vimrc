@@ -81,6 +81,11 @@ nnoremap <Leader>f :Ack!<Enter>
 colorscheme gruvbox
 set background=dark
 
+set completeopt+=menuone,noselect,noinsert
+set shortmess+=c   " Shut off completion messages
+set belloff+=ctrlg " If Vim beeps during completion
+let g:mucomplete#enable_auto_at_startup = 1
+
 " Load all packages now
 packloadall
 
