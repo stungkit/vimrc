@@ -54,6 +54,9 @@ let g:rainbow_active = 1
 " ctags
 set tags=./tags;/,tags;/
 
+" far
+let g:far#enable_undo=1
+
 " Bindings
 map <C-p> :Files<CR>
 map ; :Buffers<CR>
