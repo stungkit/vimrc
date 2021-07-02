@@ -55,7 +55,8 @@ let g:rainbow_active = 1
 set tags=./tags;/,tags;/
 
 " far
-let g:far#enable_undo=1
+let g:far#enable_undo = 1
+let g:far#source = 'rg'
 
 " Bindings
 map <C-p> :Files<CR>
