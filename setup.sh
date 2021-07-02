@@ -42,6 +42,8 @@ cp ${DIR}/.editorconfig ~/.editorconfig
 cp ${DIR}/.gitignore_global ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 
+cp ${DIR}/farignore ${INSTALL_DIR}/far.vim/farignore .
+
 # Install coc.nvim
 # ${DIR}/coc.nvim/setup.sh
 
