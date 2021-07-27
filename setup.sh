@@ -35,6 +35,7 @@ git -C ${INSTALL_DIR} clone https://github.com/camspiers/lens.vim
 git -C ${INSTALL_DIR} clone https://github.com/ludovicchabant/vim-gutentags.git
 git -C ${INSTALL_DIR} clone https://github.com/lifepillar/vim-mucomplete.git
 git -C ${INSTALL_DIR} clone https://github.com/brooth/far.vim
+git -C ${INSTALL_DIR} clone https://github.com/suy/vim-context-commentstring.git
 
 git -C ${INSTALL_DIR} clone https://github.com/editorconfig/editorconfig-vim.git
 cp ${DIR}/.editorconfig ~/.editorconfig
