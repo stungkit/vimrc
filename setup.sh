@@ -11,7 +11,6 @@ mkdir -p ${INSTALL_DIR}
 cp ${DIR}/.vimrc ~/.vimrc
 
 git -C ${INSTALL_DIR} clone https://github.com/sheerun/vim-polyglot
-git -C ${INSTALL_DIR} clone https://github.com/easymotion/vim-easymotion
 git -C ${INSTALL_DIR} clone https://github.com/morhetz/gruvbox.git
 git -C ${INSTALL_DIR} clone https://github.com/tpope/vim-vinegar.git
 git -C ${INSTALL_DIR} clone https://github.com/junegunn/fzf.vim
