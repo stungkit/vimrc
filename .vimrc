@@ -34,6 +34,8 @@ let g:ackprg = "rg --vimgrep"
 set rtp+=/usr/local/opt/fzf
 " If installed using git
 set rtp+=~/.fzf
+" Instruction from homebrew
+set rtp+=/opt/homebrew/opt/fzf
 
 " Coc
 " GoTo code navigation.
