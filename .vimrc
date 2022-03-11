@@ -86,6 +86,8 @@ function! VimLensToggle()
 endfunction
 cnoreabbrev f Ack!
 nnoremap <Leader>f :Ack!<Enter>
+cnoreabbrev r Reject
+cnoreabbrev k Keep
 
 colorscheme gruvbox
 set background=dark
