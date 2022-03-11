@@ -57,7 +57,7 @@ let g:rainbow_active = 1
 set tags=./tags;/,tags;/
 
 " gutentags
-let g:gutentags_ctags_executable = '/opt/homebrew/bin/ctags'
+let g:gutentags_ctags_executable = '/usr/local/bin/ctags'
 
 " far
 let g:far#enable_undo = 1
