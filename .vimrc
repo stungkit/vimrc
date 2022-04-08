@@ -64,7 +64,7 @@ let g:far#enable_undo = 1
 let g:far#source = 'rg'
 
 " Bindings
-map <C-p> :Files<CR>
+map <C-p> :GFiles<CR>
 map ; :Buffers<CR>
 nmap <leader>g :Ag!<CR>
 nmap <leader>p <Plug>yankstack_substitute_older_paste
